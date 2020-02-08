@@ -15,7 +15,7 @@
 web3.personal.unlockAccount(web3.eth.accounts[0], '<password>');
 
 // Create an object with ABI
-var helloWorldContract = web3.eth.cointract('<ABI>');
+var helloWorldContract = web3.eth.contract('<ABI>');
 
 // Deploy the contract
 var helloworld = helloworldContract.new({
